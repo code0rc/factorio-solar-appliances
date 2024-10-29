@@ -1,10 +1,10 @@
 {
   "name": "solar-appliances",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "title": "Solar Appliances",
   "author": "radmin96",
   "contact": "Undefined",
-  "homepage": "Undefined",
+  "homepage": "https://github.com/code0rc/factorio-solar-appliances",
   "description": "Solar-powered, self-sufficient versions of common appliances like lamps and radars, with built-in energy storage",
   "factorio_version": "2.0",
   "dependencies": ["base >= 2.0.11"]

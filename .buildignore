@@ -1,0 +1,9 @@
+build.sh
+out
+README.md
+.idea
+.git
+.gitignore
+.buildignore
+.env
+.env.example
