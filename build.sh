@@ -20,7 +20,7 @@ buildDestination="$outDir/${buildName}"
 rm -rf "${buildDestination:?}"
 rm -rf "${buildDestination}.zip"
 rsync -av --exclude-from=.buildignore "${inDir}" "${buildDestination}"
-zip -r "${buildDestination}.zip" "${buildDestination}"
+(cd out && zip -r "${buildName}.zip" "${buildName}")
 
 printf "Build done.\n"
 
